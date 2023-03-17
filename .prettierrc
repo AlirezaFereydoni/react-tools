@@ -1,0 +1,27 @@
+{
+    "semi": true,
+    "tabWidth": 4,
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "jsxSingleQuote": true,
+    "bracketSpacing": true,
+    "prettier.singleQuote": true,
+    "importOrder": [
+        "^reac(.+)$",
+        "^@(.+)$",
+        "^@types(.*)$",
+        "^@/components(.*)$",
+        "^@/api(.*)$",
+        "^@/hooks(.*)$",
+        "^@/pages(.*)$",
+        "^@/routes(.*)$",
+        "^@/store(.*)$",
+        "^@/utils(.*)$",
+        "^@/constants(.*)$",
+        "^@/styles(.*)$",
+        "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
