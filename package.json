@@ -10,6 +10,12 @@
         "type": "git",
         "url": "git+https://github.com/AlirezaFereydoni/react-tools.git"
     },
+    "files": [
+        "/hooks/*",
+        "/utils/*",
+        "global.d.ts",
+        "tsconfig.json"
+    ],
     "keywords": [
         "react-tools"
     ],

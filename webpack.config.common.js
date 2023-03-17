@@ -4,11 +4,9 @@ const config = {
     entry: {
         utils: {
             import: __dirname + '/src/utils/index.ts',
-            filename: 'dist/utils/index.ts',
         },
         hooks: {
             import: __dirname + '/src/hooks/index.ts',
-            filename: 'dist/hooks/index.ts',
         },
     },
     output: {
