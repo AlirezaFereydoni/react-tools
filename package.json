@@ -1,6 +1,6 @@
 {
-    "name": "react-tools",
-    "version": "1.0.0",
+    "name": "@ts-geeks/react-tools",
+    "version": "0.0.1",
     "description": "React common utilities such as hooks and util functions",
     "main": "index.js",
     "scripts": {

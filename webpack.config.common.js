@@ -20,6 +20,7 @@ const config = {
             },
         ],
     },
+    externals: ['react', 'react-dom'],
     resolve: {
         alias: {
             '@hooks': path.resolve(__dirname, 'src/hooks'),
