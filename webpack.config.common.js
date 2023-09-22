@@ -1,16 +1,15 @@
 const path = require('path');
 
 const config = {
+    context: path.resolve(__dirname, 'src'),
     entry: {
-        utils: {
-            import: __dirname + '/src/utils/index.ts',
-        },
-        hooks: {
-            import: __dirname + '/src/hooks/index.ts',
-        },
+        utils: './utils/index.ts',
+        hooks: './hooks/index.ts',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
+        filename: '[name].js',
+        publicPath: '/',
     },
     module: {
         rules: [

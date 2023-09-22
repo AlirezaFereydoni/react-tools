@@ -1,8 +1,7 @@
 {
     "name": "@ts-geeks/react-tools",
-    "version": "0.0.1",
+    "version": "0.0.2-beta13",
     "description": "React common utilities such as hooks and util functions",
-    "main": "index.js",
     "scripts": {
         "build": "webpack --config webpack.config.js"
     },
@@ -11,8 +10,8 @@
         "url": "git+https://github.com/AlirezaFereydoni/react-tools.git"
     },
     "files": [
-        "/hooks/*",
-        "/utils/*",
+        "./hooks/*",
+        "./utils/*",
         "global.d.ts",
         "tsconfig.json"
     ],
@@ -25,6 +24,7 @@
         "url": "https://github.com/AlirezaFereydoni/react-tools/issues"
     },
     "homepage": "https://github.com/AlirezaFereydoni/react-tools#readme",
+    "sideEffect": false,
     "devDependencies": {
         "@babel/core": "^7.18.13",
         "@babel/preset-env": "^7.18.10",
@@ -40,7 +40,7 @@
         "webpack-dev-server": "^4.10.0"
     },
     "peerDependencies": {
-        "react": "17.* | 18.*",
-        "react-dom": "17.* | 18.*"
+        "react": "^17.* | ^18.*",
+        "react-dom": "^17.* | ^18.*"
     }
 }
