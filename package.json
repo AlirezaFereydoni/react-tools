@@ -1,9 +1,10 @@
 {
     "name": "@ts-geeks/react-tools",
-    "version": "0.0.2-beta13",
+    "version": "0.0.2-beta23",
     "description": "React common utilities such as hooks and util functions",
     "scripts": {
-        "build": "webpack --config webpack.config.js"
+        "build": "webpack --config webpack.config.js",
+        "prePublish": "npm run build && node prePublish.js"
     },
     "repository": {
         "type": "git",
@@ -28,6 +29,8 @@
     "devDependencies": {
         "@babel/core": "^7.18.13",
         "@babel/preset-env": "^7.18.10",
+        "@babel/preset-react": "^7.22.15",
+        "@babel/preset-typescript": "^7.22.15",
         "@types/react": "^18.0.28",
         "babel-loader": "^8.2.5",
         "prettier": "^2.8.4",

@@ -8,11 +8,15 @@ const config = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js',
-        publicPath: '/',
+        filename: 'src/[name]/index.js',
     },
     module: {
         rules: [
+            {
+                test: /\.(ts|js|tsx|jsx)$/,
+                use: 'babel-loader',
+                exclude: /node_modules/,
+            },
             {
                 test: /\.(ts|tsx|js|jsx)$/,
                 use: ['ts-loader'],
